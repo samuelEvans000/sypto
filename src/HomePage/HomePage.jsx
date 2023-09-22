@@ -1,4 +1,4 @@
-// import React from 'react'
+
 import "./HomePage.css";
 import ImageSlider from "../ImageSlider/ImageSlider";
 import { useState } from "react";

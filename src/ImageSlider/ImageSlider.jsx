@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
-import "./ImageSlider.css"; // Create a CSS file for styling
+import "./ImageSlider.css"; 
 
 const ImageSlider = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -10,7 +10,7 @@ const ImageSlider = ({ images }) => {
       setCurrentImageIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); // 2-second interval
+    }, 3000); 
 
     return () => clearInterval(interval);
   }, [images]);
@@ -34,7 +34,7 @@ const ImageSlider = ({ images }) => {
       <div className="dots-container">
         {images.map((_, index) => (
           <span
-            key={`dot-${index}`} // Use a unique key for each dot
+            key={`dot-${index}`} 
             className={`dot ${index === currentImageIndex ? "active" : ""}`}
             onClick={() => handleDotClick(index)}
           ></span>

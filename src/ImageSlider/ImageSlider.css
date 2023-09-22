@@ -1,7 +1,7 @@
 .image-slider {
     position: relative;
     width: 100%;
-    max-width: 600px; /* Adjust the width as needed */
+    max-width: 600px; 
     margin: 0 auto;
     height: 100%;
     
@@ -35,11 +35,6 @@
     display: block;
     width: 100%;
   }
-  
-  /* img {
-    max-width: 100%;
-    height: auto;
-  } */
   
   .dots-container {
     display: flex;

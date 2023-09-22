@@ -1,5 +1,5 @@
 .image-slider {
-    position: relative;
+    /* position: relative; */
     width: 100%;
     max-width: 600px; 
     margin: 0 auto;
@@ -10,8 +10,9 @@
   .slider-container {
     display: flex;
     transition: transform 4s ease-in-out;
-    width: 100%;
-    height: 100%;
+    width: 30vw;
+    
+    
   }
   
   .slider-image {
@@ -34,12 +35,14 @@
     visibility: visible;
     display: block;
     width: 100%;
+    height: 100%;
   }
   
   .dots-container {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+   
+   
   }
   
   .dot {

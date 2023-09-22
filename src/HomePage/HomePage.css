@@ -1,6 +1,7 @@
 .Home{
     display: flex;
     justify-content: space-around;
+    background-color: #ffffff;
 }
 
 .content h1{
@@ -23,6 +24,7 @@
     color: rgb(71, 71, 71);
     border: 1px solid rgb(71, 71, 71);
     padding: 15px 50px;
+    background-color: #ffffff;
 }
 
 .touch{

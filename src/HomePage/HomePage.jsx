@@ -5,26 +5,26 @@ import { useState } from "react";
 
 function HomePage() {
   const images = [
-    "/public/assets/image1.jpg",
-    "/public/assets/image2.jpg",
-    "/public/assets/image3.jpg",
-    "/public/assets/image4.jpg",
+    "/assets/image1.jpg",
+    "/assets/image2.jpg",
+    "/assets/image3.jpg",
+    "/assets/image4.jpg",
   ];
   const products = [
     {
       id: 1,
       name: "Europe",
-      imageUrl: "/public/assets/europe.jpg",
+      imageUrl: "/assets/europe.jpg",
     },
     {
       id: 2,
       name: "Delhi",
-      imageUrl: "/public/assets/delhi.jpg",
+      imageUrl: "/assets/delhi.jpg",
     },
     {
       id: 3,
       name: "Hyderabad",
-      imageUrl: "/public/assets/hyderabad.jpg",
+      imageUrl: "/assets/hyderabad.jpg",
     },
     
   ];

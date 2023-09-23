@@ -12,7 +12,7 @@
 .navbar img {
   cursor: pointer;
   width: 12%;
-  height: auto;
+  height: 6%;
   margin-top: 10px;
   margin-left: 50px;
 }
@@ -33,6 +33,7 @@
 .nav-item {
   margin-right: 1rem;
   padding: 5px 15px;
+  cursor: pointer;
 }
 
 .nav-item:hover {

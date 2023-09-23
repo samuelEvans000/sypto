@@ -1,6 +1,6 @@
 
 import './Navbar.css'
-import Logo from '../../public/assets/Logo.png'
+import Logo from '/assets/Logo.png'
 
 function Navbar() {
   return (

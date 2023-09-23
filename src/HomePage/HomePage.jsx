@@ -39,7 +39,7 @@ function HomePage() {
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex - 2 >= 0 ? prevIndex - 2 : products.length - 2
+      prevIndex - 1 >= 0 ? prevIndex - 1 : products.length - 2
     );
   };
   return (
@@ -84,7 +84,6 @@ function HomePage() {
                 &gt;
               </button>
               </div>
-              
             </div>
           </div>
         </div>
